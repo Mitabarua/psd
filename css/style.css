@@ -1,0 +1,16 @@
+/*font links start*/open
+@ font-face{
+       src:url(..font/open-sans/opensans-light.ttf);
+       font-family:opensans-light;
+}
+@ font-face{
+       src:url(..font/open-sans/openSans-bold.ttf);
+       font-family:opensans-bold;
+}
+
+/*header start*/
+.container{
+	margin:0 auto;
+	width:90%
+}
+
