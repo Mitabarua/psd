@@ -105,9 +105,9 @@ header{
 	padding:0 0 80px;
 }
 .s_blog{
-	margin-top:80px;
+	margin-bottom:80px;
+	margin-top: 80px ;
 	width:47%;
-	border:1px solid red;
 	box-sizing:border-box;
 	float:left;
 }
@@ -138,7 +138,6 @@ header{
 .s_form{
 	position:relative;
 	width:400px;
-	border:5px solid red;
 	margin:0 auto;
 }
 .s_form input{
@@ -198,25 +197,39 @@ width:100%;
 
 /*load end*/
 /*footer start*/
-.footer{
+.footer{ 
 	width:100%;
-	border:1px solid black;
-}
-.container4{
-	margin:0 auto;
-	width:80%;
+	background-color:#f0f0f0;
+	
 }
 .f_p{
-	margin-left:130px;
-    float:left;
+	padding:10px;
+	float:left;
+	width:30%;
+	
+
 }
 .f_p a{
-	margin-left:18px;
+	padding: 10px;
+	text-decoration:none;
 }
-.f_p2{
+.item{  
 	float:right;
+	width:20%;
+ }
+.item ul{
+
+ }
+.item ul li{ 
+	
+	list-style:none;
+ }
+.item ul li a {
+     float:left;
+     padding:10px 10px;
+	 text-decoration:none;
 }
-.icon{
-	float:right;
-}
+
+
+
 /*footer end*/
