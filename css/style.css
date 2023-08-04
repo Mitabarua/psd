@@ -212,6 +212,7 @@ width:100%;
 .f_p a{
 	padding: 10px;
 	text-decoration:none;
+	
 }
 .item{  
 	float:right;
@@ -221,12 +222,12 @@ width:100%;
 
  }
 .item ul li{ 
-	
-	list-style:none;
+	    float: left;
+	    padding: 0 10px;
+	    list-style:none;
  }
 .item ul li a {
-     float:left;
-     padding:10px 10px;
+     
 	 text-decoration:none;
 }
 
